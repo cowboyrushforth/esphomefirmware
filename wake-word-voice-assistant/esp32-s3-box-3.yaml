@@ -64,7 +64,7 @@ esp32:
       CONFIG_ESP32_S3_BOX_3_BOARD: "y"
     components:
       - name: esp32_s3_box_3_board
-        source: github://jesserockz/esp32-s3-box-3-board@main
+        source: github://sammcj/esp32-s3-box-3-board@main
         refresh: 0s
 
 psram:
@@ -87,7 +87,7 @@ logger:
   hardware_uart: USB_SERIAL_JTAG
 
 dashboard_import:
-  package_import_url: github://esphome/firmware/wake-word-voice-assistant/esp32-s3-box-3.yaml@main
+  package_import_url: github://cowboyrushforth/esphomefirmware/wake-word-voice-assistant/esp32-s3-box-3.yaml@main
 
 wifi:
   ap:
